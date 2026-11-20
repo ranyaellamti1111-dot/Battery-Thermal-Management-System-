@@ -26,11 +26,11 @@ Under the simulated conditions shown in the project presentation, fan-assisted c
 
 ![Simulated temperature comparison for active and passive cooling](temperature-comparison.png)
 ![Simulated temperature for active cooling](active.png)
-![Simulated temperature for active cooling](nofans.png)
+![Simulated temperature for active cooling](passiveres.png)
 
 
 ## Arduino monitoring and control
 
 The controller monitors temperature and uses PWM to drive the cooling fans. The project also included alert and current-limiting logic for elevated temperatures.
 
-[View the Arduino wiring diagram](arduino.png)
+![Arduino wiring diagram](arduino.png)
