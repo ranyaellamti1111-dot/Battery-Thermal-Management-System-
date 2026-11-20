@@ -25,9 +25,12 @@ The second model adds active airflow so we can compare the temperature response 
 Under the simulated conditions shown in the project presentation, fan-assisted cooling held the temperature around **40 °C**, while the passive case exceeded the project's **45 °C design target**.
 
 ![Simulated temperature comparison for active and passive cooling](temperature-comparison.png)
+![Simulated temperature for active cooling](active.png)
+![Simulated temperature for active cooling](nofans.png)
+
 
 ## Arduino monitoring and control
 
 The controller monitors temperature and uses PWM to drive the cooling fans. The project also included alert and current-limiting logic for elevated temperatures.
 
-[View the Arduino wiring diagram](docs/images/arduino-wiring.png)
+[View the Arduino wiring diagram](arduino.png)
