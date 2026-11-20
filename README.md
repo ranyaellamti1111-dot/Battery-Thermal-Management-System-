@@ -4,7 +4,7 @@ A team engineering project comparing passive and fan-assisted cooling for an aut
 
 ## Physical prototype
 
-![Physical BTMS prototype with its enclosure, Arduino board, wiring, and cooling fan](docs/images/prototype.png)
+![Physical BTMS prototype with its enclosure, Arduino board, wiring, and cooling fan](prototype.png)
 
 ## Simulink models
 
@@ -12,19 +12,19 @@ A team engineering project comparing passive and fan-assisted cooling for an aut
 
 The baseline models the module's thermal response with the fans off.
 
-![Simulink model for passive battery cooling](docs/images/simulink-passive.png)
+![Simulink model for passive battery cooling](simulink-passive.png)
 
 ### Fan-assisted cooling
 
 The second model adds active airflow so we can compare the temperature response with the passive case.
 
-![Simulink model for fan-assisted battery cooling](docs/images/simulink-active.png)
+![Simulink model for fan-assisted battery cooling](simulink-active.png)
 
 ## Simulation results
 
 Under the simulated conditions shown in the project presentation, fan-assisted cooling held the temperature around **40 °C**, while the passive case exceeded the project's **45 °C design target**.
 
-![Simulated temperature comparison for active and passive cooling](docs/images/temperature-comparison.png)
+![Simulated temperature comparison for active and passive cooling](temperature-comparison.png)
 
 ## Arduino monitoring and control
 
